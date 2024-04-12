@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2245BBF2BC905E30013BD99 /* ShowObservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BBE2BC905E30013BD99 /* ShowObservationViewController.swift */; };
+		A2245BC12BC911310013BD99 /* ShowNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BC02BC911310013BD99 /* ShowNoteView.swift */; };
+		A2245BC42BC911720013BD99 /* ShowNoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2245BC32BC911720013BD99 /* ShowNoteView.xib */; };
+		A2245BC62BC915B40013BD99 /* ShowNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2245BC52BC915B40013BD99 /* ShowNoteTableViewCell.swift */; };
+		A25B06632BC6FB610036EFAA /* DateFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B06622BC6FB610036EFAA /* DateFormatter+Style.swift */; };
+		A25B06652BC6FF440036EFAA /* Oseravtion+AppAdditons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25B06642BC6FF440036EFAA /* Oseravtion+AppAdditons.swift */; };
+		A25D4C332BBC4159005E17A8 /* ObservationListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D4C322BBC4159005E17A8 /* ObservationListTableViewController.swift */; };
+		A25D4C352BBC4318005E17A8 /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D4C342BBC4318005E17A8 /* MainMenuTableViewController.swift */; };
+		A25D4C372BBC4EFC005E17A8 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25D4C362BBC4EFC005E17A8 /* DrawingView.swift */; };
+		A27DFD082BBC28E400954EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD072BBC28E400954EB6 /* AppDelegate.swift */; };
+		A27DFD0A2BBC28E400954EB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD092BBC28E400954EB6 /* SceneDelegate.swift */; };
+		A27DFD0C2BBC28E400954EB6 /* MakeNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD0B2BBC28E400954EB6 /* MakeNoteViewController.swift */; };
+		A27DFD0F2BBC28E400954EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27DFD0D2BBC28E400954EB6 /* Main.storyboard */; };
+		A27DFD122BBC28E400954EB6 /* MeteorNotebook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD102BBC28E400954EB6 /* MeteorNotebook.xcdatamodeld */; };
+		A27DFD142BBC28E700954EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27DFD132BBC28E700954EB6 /* Assets.xcassets */; };
+		A27DFD172BBC28E700954EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27DFD152BBC28E700954EB6 /* LaunchScreen.storyboard */; };
+		A27DFD222BBC28E700954EB6 /* MeteorNotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD212BBC28E700954EB6 /* MeteorNotebookTests.swift */; };
+		A27DFD2C2BBC28E700954EB6 /* MeteorNotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD2B2BBC28E700954EB6 /* MeteorNotebookUITests.swift */; };
+		A27DFD2E2BBC28E700954EB6 /* MeteorNotebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27DFD2D2BBC28E700954EB6 /* MeteorNotebookUITestsLaunchTests.swift */; };
+		A2D096C82BC075D50016B208 /* PersistenceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D096C72BC075D50016B208 /* PersistenceCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27DFD1E2BBC28E700954EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27DFCFC2BBC28E400954EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27DFD032BBC28E400954EB6;
+			remoteInfo = MeteorNotebook;
+		};
+		A27DFD282BBC28E700954EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27DFCFC2BBC28E400954EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27DFD032BBC28E400954EB6;
+			remoteInfo = MeteorNotebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2245BBE2BC905E30013BD99 /* ShowObservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowObservationViewController.swift; sourceTree = "<group>"; };
+		A2245BC02BC911310013BD99 /* ShowNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNoteView.swift; sourceTree = "<group>"; };
+		A2245BC32BC911720013BD99 /* ShowNoteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowNoteView.xib; sourceTree = "<group>"; };
+		A2245BC52BC915B40013BD99 /* ShowNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowNoteTableViewCell.swift; sourceTree = "<group>"; };
+		A25B06622BC6FB610036EFAA /* DateFormatter+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Style.swift"; sourceTree = "<group>"; };
+		A25B06642BC6FF440036EFAA /* Oseravtion+AppAdditons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Oseravtion+AppAdditons.swift"; sourceTree = "<group>"; };
+		A25D4C322BBC4159005E17A8 /* ObservationListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationListTableViewController.swift; sourceTree = "<group>"; };
+		A25D4C342BBC4318005E17A8 /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
+		A25D4C362BBC4EFC005E17A8 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		A27DFD042BBC28E400954EB6 /* MeteorNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeteorNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27DFD072BBC28E400954EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27DFD092BBC28E400954EB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A27DFD0B2BBC28E400954EB6 /* MakeNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeNoteViewController.swift; sourceTree = "<group>"; };
+		A27DFD0E2BBC28E400954EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27DFD112BBC28E400954EB6 /* MeteorNotebook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeteorNotebook.xcdatamodel; sourceTree = "<group>"; };
+		A27DFD132BBC28E700954EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27DFD162BBC28E700954EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27DFD182BBC28E700954EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27DFD1D2BBC28E700954EB6 /* MeteorNotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorNotebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27DFD212BBC28E700954EB6 /* MeteorNotebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorNotebookTests.swift; sourceTree = "<group>"; };
+		A27DFD272BBC28E700954EB6 /* MeteorNotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeteorNotebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27DFD2B2BBC28E700954EB6 /* MeteorNotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorNotebookUITests.swift; sourceTree = "<group>"; };
+		A27DFD2D2BBC28E700954EB6 /* MeteorNotebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorNotebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2D096C72BC075D50016B208 /* PersistenceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceCoordinator.swift; sourceTree = "<group>"; };
+		A2D096CA2BC079CF0016B208 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A2D096CB2BC079CF0016B208 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A2D096CC2BC079CF0016B208 /* Observation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A2D096CD2BC079CF0016B208 /* Observation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27DFD012BBC28E400954EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DFD1A2BBC28E700954EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DFD242BBC28E700954EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A25B06602BC6FABB0036EFAA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A25B06642BC6FF440036EFAA /* Oseravtion+AppAdditons.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A25B06612BC6FAF00036EFAA /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				A25B06622BC6FB610036EFAA /* DateFormatter+Style.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		A27DFCFB2BBC28E400954EB6 = {
+			isa = PBXGroup;
+			children = (
+				A27DFD062BBC28E400954EB6 /* MeteorNotebook */,
+				A27DFD202BBC28E700954EB6 /* MeteorNotebookTests */,
+				A27DFD2A2BBC28E700954EB6 /* MeteorNotebookUITests */,
+				A27DFD052BBC28E400954EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27DFD052BBC28E400954EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27DFD042BBC28E400954EB6 /* MeteorNotebook.app */,
+				A27DFD1D2BBC28E700954EB6 /* MeteorNotebookTests.xctest */,
+				A27DFD272BBC28E700954EB6 /* MeteorNotebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27DFD062BBC28E400954EB6 /* MeteorNotebook */ = {
+			isa = PBXGroup;
+			children = (
+				A25B06612BC6FAF00036EFAA /* Style */,
+				A25B06602BC6FABB0036EFAA /* Utils */,
+				A2D096C92BC0764A0016B208 /* Persistence */,
+				A27DFD072BBC28E400954EB6 /* AppDelegate.swift */,
+				A2245BBE2BC905E30013BD99 /* ShowObservationViewController.swift */,
+				A27DFD092BBC28E400954EB6 /* SceneDelegate.swift */,
+				A27DFD0B2BBC28E400954EB6 /* MakeNoteViewController.swift */,
+				A25D4C362BBC4EFC005E17A8 /* DrawingView.swift */,
+				A25D4C342BBC4318005E17A8 /* MainMenuTableViewController.swift */,
+				A27DFD0D2BBC28E400954EB6 /* Main.storyboard */,
+				A25D4C322BBC4159005E17A8 /* ObservationListTableViewController.swift */,
+				A27DFD132BBC28E700954EB6 /* Assets.xcassets */,
+				A27DFD152BBC28E700954EB6 /* LaunchScreen.storyboard */,
+				A27DFD182BBC28E700954EB6 /* Info.plist */,
+				A2245BC02BC911310013BD99 /* ShowNoteView.swift */,
+				A2245BC32BC911720013BD99 /* ShowNoteView.xib */,
+				A2245BC52BC915B40013BD99 /* ShowNoteTableViewCell.swift */,
+			);
+			path = MeteorNotebook;
+			sourceTree = "<group>";
+		};
+		A27DFD202BBC28E700954EB6 /* MeteorNotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27DFD212BBC28E700954EB6 /* MeteorNotebookTests.swift */,
+			);
+			path = MeteorNotebookTests;
+			sourceTree = "<group>";
+		};
+		A27DFD2A2BBC28E700954EB6 /* MeteorNotebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27DFD2B2BBC28E700954EB6 /* MeteorNotebookUITests.swift */,
+				A27DFD2D2BBC28E700954EB6 /* MeteorNotebookUITestsLaunchTests.swift */,
+			);
+			path = MeteorNotebookUITests;
+			sourceTree = "<group>";
+		};
+		A2D096C92BC0764A0016B208 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A27DFD102BBC28E400954EB6 /* MeteorNotebook.xcdatamodeld */,
+				A2D096C72BC075D50016B208 /* PersistenceCoordinator.swift */,
+				A2D096CA2BC079CF0016B208 /* Note+CoreDataClass.swift */,
+				A2D096CB2BC079CF0016B208 /* Note+CoreDataProperties.swift */,
+				A2D096CC2BC079CF0016B208 /* Observation+CoreDataClass.swift */,
+				A2D096CD2BC079CF0016B208 /* Observation+CoreDataProperties.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27DFD032BBC28E400954EB6 /* MeteorNotebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27DFD312BBC28E700954EB6 /* Build configuration list for PBXNativeTarget "MeteorNotebook" */;
+			buildPhases = (
+				A27DFD002BBC28E400954EB6 /* Sources */,
+				A27DFD012BBC28E400954EB6 /* Frameworks */,
+				A27DFD022BBC28E400954EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeteorNotebook;
+			productName = MeteorNotebook;
+			productReference = A27DFD042BBC28E400954EB6 /* MeteorNotebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27DFD1C2BBC28E700954EB6 /* MeteorNotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27DFD342BBC28E700954EB6 /* Build configuration list for PBXNativeTarget "MeteorNotebookTests" */;
+			buildPhases = (
+				A27DFD192BBC28E700954EB6 /* Sources */,
+				A27DFD1A2BBC28E700954EB6 /* Frameworks */,
+				A27DFD1B2BBC28E700954EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27DFD1F2BBC28E700954EB6 /* PBXTargetDependency */,
+			);
+			name = MeteorNotebookTests;
+			productName = MeteorNotebookTests;
+			productReference = A27DFD1D2BBC28E700954EB6 /* MeteorNotebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27DFD262BBC28E700954EB6 /* MeteorNotebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27DFD372BBC28E700954EB6 /* Build configuration list for PBXNativeTarget "MeteorNotebookUITests" */;
+			buildPhases = (
+				A27DFD232BBC28E700954EB6 /* Sources */,
+				A27DFD242BBC28E700954EB6 /* Frameworks */,
+				A27DFD252BBC28E700954EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27DFD292BBC28E700954EB6 /* PBXTargetDependency */,
+			);
+			name = MeteorNotebookUITests;
+			productName = MeteorNotebookUITests;
+			productReference = A27DFD272BBC28E700954EB6 /* MeteorNotebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27DFCFC2BBC28E400954EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A27DFD032BBC28E400954EB6 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A27DFD1C2BBC28E700954EB6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A27DFD032BBC28E400954EB6;
+					};
+					A27DFD262BBC28E700954EB6 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A27DFD032BBC28E400954EB6;
+					};
+				};
+			};
+			buildConfigurationList = A27DFCFF2BBC28E400954EB6 /* Build configuration list for PBXProject "MeteorNotebook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27DFCFB2BBC28E400954EB6;
+			productRefGroup = A27DFD052BBC28E400954EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27DFD032BBC28E400954EB6 /* MeteorNotebook */,
+				A27DFD1C2BBC28E700954EB6 /* MeteorNotebookTests */,
+				A27DFD262BBC28E700954EB6 /* MeteorNotebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27DFD022BBC28E400954EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DFD172BBC28E700954EB6 /* LaunchScreen.storyboard in Resources */,
+				A27DFD142BBC28E700954EB6 /* Assets.xcassets in Resources */,
+				A27DFD0F2BBC28E400954EB6 /* Main.storyboard in Resources */,
+				A2245BC42BC911720013BD99 /* ShowNoteView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DFD1B2BBC28E700954EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DFD252BBC28E700954EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27DFD002BBC28E400954EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D096C82BC075D50016B208 /* PersistenceCoordinator.swift in Sources */,
+				A25D4C372BBC4EFC005E17A8 /* DrawingView.swift in Sources */,
+				A25B06632BC6FB610036EFAA /* DateFormatter+Style.swift in Sources */,
+				A2245BC12BC911310013BD99 /* ShowNoteView.swift in Sources */,
+				A2245BBF2BC905E30013BD99 /* ShowObservationViewController.swift in Sources */,
+				A2245BC62BC915B40013BD99 /* ShowNoteTableViewCell.swift in Sources */,
+				A25B06652BC6FF440036EFAA /* Oseravtion+AppAdditons.swift in Sources */,
+				A27DFD122BBC28E400954EB6 /* MeteorNotebook.xcdatamodeld in Sources */,
+				A25D4C352BBC4318005E17A8 /* MainMenuTableViewController.swift in Sources */,
+				A27DFD0C2BBC28E400954EB6 /* MakeNoteViewController.swift in Sources */,
+				A25D4C332BBC4159005E17A8 /* ObservationListTableViewController.swift in Sources */,
+				A27DFD082BBC28E400954EB6 /* AppDelegate.swift in Sources */,
+				A27DFD0A2BBC28E400954EB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DFD192BBC28E700954EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DFD222BBC28E700954EB6 /* MeteorNotebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27DFD232BBC28E700954EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27DFD2C2BBC28E700954EB6 /* MeteorNotebookUITests.swift in Sources */,
+				A27DFD2E2BBC28E700954EB6 /* MeteorNotebookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27DFD1F2BBC28E700954EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27DFD032BBC28E400954EB6 /* MeteorNotebook */;
+			targetProxy = A27DFD1E2BBC28E700954EB6 /* PBXContainerItemProxy */;
+		};
+		A27DFD292BBC28E700954EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27DFD032BBC28E400954EB6 /* MeteorNotebook */;
+			targetProxy = A27DFD282BBC28E700954EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27DFD0D2BBC28E400954EB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27DFD0E2BBC28E400954EB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27DFD152BBC28E700954EB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27DFD162BBC28E700954EB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27DFD2F2BBC28E700954EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27DFD302BBC28E700954EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27DFD322BBC28E700954EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS8DXU75T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeteorNotebook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Beli-Brezi.MeteorNotebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27DFD332BBC28E700954EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS8DXU75T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeteorNotebook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Beli-Brezi.MeteorNotebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27DFD352BBC28E700954EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS8DXU75T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Beli-Brezi.MeteorNotebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeteorNotebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeteorNotebook";
+			};
+			name = Debug;
+		};
+		A27DFD362BBC28E700954EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS8DXU75T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Beli-Brezi.MeteorNotebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeteorNotebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MeteorNotebook";
+			};
+			name = Release;
+		};
+		A27DFD382BBC28E700954EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS8DXU75T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Beli-Brezi.MeteorNotebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeteorNotebook;
+			};
+			name = Debug;
+		};
+		A27DFD392BBC28E700954EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SS8DXU75T3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Beli-Brezi.MeteorNotebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeteorNotebook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27DFCFF2BBC28E400954EB6 /* Build configuration list for PBXProject "MeteorNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DFD2F2BBC28E700954EB6 /* Debug */,
+				A27DFD302BBC28E700954EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27DFD312BBC28E700954EB6 /* Build configuration list for PBXNativeTarget "MeteorNotebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DFD322BBC28E700954EB6 /* Debug */,
+				A27DFD332BBC28E700954EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27DFD342BBC28E700954EB6 /* Build configuration list for PBXNativeTarget "MeteorNotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DFD352BBC28E700954EB6 /* Debug */,
+				A27DFD362BBC28E700954EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27DFD372BBC28E700954EB6 /* Build configuration list for PBXNativeTarget "MeteorNotebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27DFD382BBC28E700954EB6 /* Debug */,
+				A27DFD392BBC28E700954EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A27DFD102BBC28E400954EB6 /* MeteorNotebook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A27DFD112BBC28E400954EB6 /* MeteorNotebook.xcdatamodel */,
+			);
+			currentVersion = A27DFD112BBC28E400954EB6 /* MeteorNotebook.xcdatamodel */;
+			path = MeteorNotebook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A27DFCFC2BBC28E400954EB6 /* Project object */;
+}

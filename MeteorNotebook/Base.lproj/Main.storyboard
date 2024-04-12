@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aUc-z6-hoQ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Meteor Notebook-->
+        <scene sceneID="AFq-Ke-9jz">
+            <objects>
+                <tableViewController id="Uuf-bd-TSI" customClass="MainMenuTableViewController" customModule="MeteorNotebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="dZe-Iu-GE8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="rgU-bE-As8">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qxN-oi-WWV" style="IBUITableViewCellStyleDefault" id="zk4-W2-rvG">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zk4-W2-rvG" id="emO-rd-4yI">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Започни наблюдение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qxN-oi-WWV">
+                                                    <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="startRealObservation" id="Cbl-cQ-8Gs"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="o1U-DY-c8E" style="IBUITableViewCellStyleDefault" id="ntS-xa-if8">
+                                        <rect key="frame" x="0.0" y="93.666667938232422" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ntS-xa-if8" id="1GH-5P-xcl">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Минали наблюдения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o1U-DY-c8E">
+                                                    <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bvZ-OQ-fe3" kind="show" id="T6z-3M-RRz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="OiR-pb-qrD" style="IBUITableViewCellStyleDefault" id="64x-DP-KXS">
+                                        <rect key="frame" x="0.0" y="137.33333587646484" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="64x-DP-KXS" id="Oh8-ul-Lhs">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Упражнение" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OiR-pb-qrD">
+                                                    <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="startPracticeObservation" id="6xP-c0-PpJ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="HBX-p1-CEA" style="IBUITableViewCellStyleDefault" id="lOf-kt-aXF">
+                                        <rect key="frame" x="0.0" y="181.00000381469727" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lOf-kt-aXF" id="Wwn-Qh-tM2">
+                                            <rect key="frame" x="0.0" y="0.0" width="362.66666666666669" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Упътване" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HBX-p1-CEA">
+                                                    <rect key="frame" x="20" y="0.0" width="334.66666666666669" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OGn-Tc-yBE" kind="show" id="HhD-hl-ziT"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="Uuf-bd-TSI" id="B2e-W3-Wnn"/>
+                            <outlet property="delegate" destination="Uuf-bd-TSI" id="Vih-Od-ej5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Meteor Notebook" id="3hJ-4o-Zjv"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BeT-XP-aGq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-315" y="-25"/>
+        </scene>
+        <!--Минали наблюдения-->
+        <scene sceneID="rHc-qo-NqL">
+            <objects>
+                <tableViewController id="bvZ-OQ-fe3" customClass="ObservationListTableViewController" customModule="MeteorNotebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Jwa-rq-OL7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="observationCell" textLabel="lMU-6u-7Ps" detailTextLabel="0kn-QK-sP2" style="IBUITableViewCellStyleSubtitle" id="xy5-Ux-JQS">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xy5-Ux-JQS" id="9cK-Cn-o7D">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lMU-6u-7Ps">
+                                            <rect key="frame" x="20" y="6.0000000000000009" width="25" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0kn-QK-sP2">
+                                            <rect key="frame" x="19.999999999999996" y="22.333333333333336" width="43.666666666666664" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="V4U-Ec-R3k" kind="show" identifier="ClickedObservation" id="szZ-jO-daO"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="bvZ-OQ-fe3" id="ct4-kw-xgd"/>
+                            <outlet property="delegate" destination="bvZ-OQ-fe3" id="R7v-Hr-FN7"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Минали наблюдения" id="xIi-nt-46S"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="run-rr-zjz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="-173"/>
+        </scene>
+        <!--Show Observation View Controller-->
+        <scene sceneID="OjC-tp-KoW">
+            <objects>
+                <viewController id="V4U-Ec-R3k" customClass="ShowObservationViewController" customModule="MeteorNotebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oV0-aT-dDx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kzj-9i-t7X">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="NoteCell" id="9Rn-aW-LIZ" customClass="ShowNoteTableViewCell" customModule="MeteorNotebook" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9Rn-aW-LIZ" id="DdN-0L-kH3">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="V4U-Ec-R3k" id="Z2u-5D-1Kn"/>
+                                    <outlet property="delegate" destination="V4U-Ec-R3k" id="oNc-VJ-QJC"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9tY-0R-NMa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9tY-0R-NMa" firstAttribute="bottom" secondItem="kzj-9i-t7X" secondAttribute="bottom" id="5R9-Hb-816"/>
+                            <constraint firstItem="kzj-9i-t7X" firstAttribute="centerX" secondItem="oV0-aT-dDx" secondAttribute="centerX" id="Ycz-ZH-94I"/>
+                            <constraint firstItem="kzj-9i-t7X" firstAttribute="top" secondItem="9tY-0R-NMa" secondAttribute="top" id="e4v-TV-ryE"/>
+                            <constraint firstItem="kzj-9i-t7X" firstAttribute="leading" secondItem="oV0-aT-dDx" secondAttribute="leading" id="gQM-Zz-mX0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LQu-et-a9s">
+                        <barButtonItem key="rightBarButtonItem" image="square.and.arrow.up" catalog="system" id="arK-IM-tia">
+                            <connections>
+                                <action selector="share:" destination="V4U-Ec-R3k" id="yYG-Ng-OjE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="shareButton" destination="arK-IM-tia" id="aGc-QK-QHp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bE-Iu-dWe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1510.6870229007634" y="-163.38028169014086"/>
+        </scene>
+        <!--Упътвания-->
+        <scene sceneID="32M-1X-dW1">
+            <objects>
+                <viewController title="Упътвания" id="OGn-Tc-yBE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TrO-Jv-zBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vYB-ud-t4B">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="tYB-3A-IE1">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="283.33333333333331"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfD-ld-CMy">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="283.33333333333331"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <string key="text">1. Упражнение
+За начало на упражнителна сесия от началното меню изберете "Упражнение". Тук можете да упражнявате уменията Ви да рисувате на телефон без да гледате. Докато сте в режим "Упражнение" НЯМА да се запази наблюдение.
+
+2. Начало на наблюдение Натиснете бутона "Започни наблюдение", след което натиснете 3 пъти последователно бутона за включване. Изберете опцията Guided Access. Маркирайте долната част на екрана, така че да покриете софтуерния бутон. В долния ляв ъгъл на екрана от менюто Options изберете Side Button. Натиснете бутона Start и въведете желана от вас парола. 
+ </string>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="tYB-3A-IE1" firstAttribute="top" secondItem="PUl-nV-0aj" secondAttribute="top" id="44E-7k-RGz"/>
+                                    <constraint firstItem="PUl-nV-0aj" firstAttribute="trailing" secondItem="tYB-3A-IE1" secondAttribute="trailing" id="6WZ-Of-jhL"/>
+                                    <constraint firstItem="tYB-3A-IE1" firstAttribute="width" secondItem="vYB-ud-t4B" secondAttribute="width" id="PHv-Nu-fLf"/>
+                                    <constraint firstItem="PUl-nV-0aj" firstAttribute="bottom" secondItem="tYB-3A-IE1" secondAttribute="bottom" id="pDP-da-Rz7"/>
+                                    <constraint firstItem="tYB-3A-IE1" firstAttribute="leading" secondItem="PUl-nV-0aj" secondAttribute="leading" id="v1n-bZ-XoY"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="PUl-nV-0aj"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="UFB-j7-NOf"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0b7-TJ-hI2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0b7-TJ-hI2" firstAttribute="trailing" secondItem="vYB-ud-t4B" secondAttribute="trailing" id="4Ae-Gb-VRI"/>
+                            <constraint firstItem="vYB-ud-t4B" firstAttribute="leading" secondItem="0b7-TJ-hI2" secondAttribute="leading" id="EZQ-M3-Cit"/>
+                            <constraint firstItem="0b7-TJ-hI2" firstAttribute="bottom" secondItem="vYB-ud-t4B" secondAttribute="bottom" id="LlC-PI-kJC"/>
+                            <constraint firstItem="vYB-ud-t4B" firstAttribute="top" secondItem="0b7-TJ-hI2" secondAttribute="top" id="Ryd-Jb-3EJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Упътвания" id="EOB-uA-4jv">
+                        <barButtonItem key="backBarButtonItem" title="Меню" id="8ee-0L-wk9"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hI9-pG-aTm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="494"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jrz-Rv-SQm">
+            <objects>
+                <navigationController id="aUc-z6-hoQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AIu-zC-ciF">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Uuf-bd-TSI" kind="relationship" relationship="rootViewController" id="o7s-r0-MOM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DDd-x6-jR6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1222" y="-25"/>
+        </scene>
+        <!--Make Note View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MakeNoteViewController" customModule="MeteorNotebook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f9p-FF-NCb" customClass="DrawingView" customModule="MeteorNotebook" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="f9p-FF-NCb" secondAttribute="bottom" id="AAP-PQ-bMS"/>
+                            <constraint firstItem="f9p-FF-NCb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WQW-G2-Ffe"/>
+                            <constraint firstAttribute="trailing" secondItem="f9p-FF-NCb" secondAttribute="trailing" id="gCU-Z1-1G4"/>
+                            <constraint firstItem="f9p-FF-NCb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oxy-ga-oEA"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="r18-gT-fvr" appends="YES" id="BBZ-lb-Zza"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="W65-NO-Ilt"/>
+                    <connections>
+                        <outlet property="drawingView" destination="f9p-FF-NCb" id="KND-i7-NFR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="r18-gT-fvr">
+                    <connections>
+                        <action selector="draw:" destination="BYZ-38-t0r" id="ah3-Jj-Zqd"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="605" y="-839"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6xP-c0-PpJ"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="108" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
